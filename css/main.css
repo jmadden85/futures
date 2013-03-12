@@ -1,0 +1,76 @@
+header, .wrapper {
+    width:80%;
+    margin:0 auto;
+    max-width:1200px;
+}
+
+header .logoContainer {
+    float:left;
+    margin:7px 0 7px 20px;
+    width:44%;
+}
+
+header img {
+    width:285px;
+}
+
+.topHeader .btn {
+    margin:21px 0 0 0;
+    float:left;
+}
+
+.social {
+    float:right;
+    margin:17px 20px 0 0;
+}
+
+.social p {
+    text-align:center;
+    margin:10px 0 0 0;
+}
+
+.socialMedia {
+    list-style:none;
+    margin:0;
+}
+
+.socialMedia li {
+    float:left;
+    margin-right:10px;
+}
+
+.socialMedia li a {
+    background:url('../img/conceptSocialMedia.gif') 0 0 no-repeat transparent;
+    display:block;
+    height:40px;
+    width:40px;
+    opacity:.6;
+}
+
+.socialMedia li a:hover {
+    opacity:1;
+}
+
+.socialMedia .facebook a {
+    background-position:0px 0px;
+}
+
+.socialMedia .google a {
+    background-position:0 -58px;
+}
+
+.socialMedia .twitter a {
+    background-position:0 -318px;
+}
+
+.socialMedia .blog a {
+    background-position:0 -117px;
+}
+
+.navbar {
+    clear:both;
+}
+
+.navbar .nav>li>a {
+    padding:10px 20px;
+}
